@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "extensions": [".js", ".json"],
+      "cwd": "babelrc",
+      "alias": {
+        "@containers": "./src/containers",
+        "@components": "./src/components",
+        "@utils": "./src/utils",
+        "@ui": "./src/ui",
+        "@colors": "./src/components/colors",
+      }
+    }]
+  ],
+}
